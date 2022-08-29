@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    width: 280px;
+    height: 560px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: rgb(248, 241, 241);
+    overflow: hidden;
+}
+.form{
+    background-color: #ffffff;
+    margin-top: -10px;
+    
+    
+}
+.upper{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: rgb(120, 117, 117);
+}
+
+.upper_1{
+    margin-top: 10px;
+    display: flex;
+    color: rgb(120, 117, 117);
+}
+.upper_1 i{
+    margin-left: 3px;
+}
+.upper2{
+    display: flex;
+    margin: 10px 10px 0 0;
+}
+.upper2 p{
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.upper2 h3{
+    margin-left: 9px;
+}
+.form_input{
+    color: white;
+    display: flex;
+}
+.form_input i{
+   margin-top: 7px; 
+}
+input{
+    all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.create{
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 40px;
+    
+}
+.create p{
+    color: rgb(127, 127, 210);
+}
+
+.add{
+    display: flex;
+    padding-left: 10px;
+    color: rgb(127, 127, 210);
+}
+.add i{
+    margin-top: 10px;
+}
+.add p{
+    margin-left: 10px;
+}
+
+.new-input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgb(248, 241, 241);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px -5px 10px 0px rgb(216, 214, 214)
+    
+}
+hr{ 
+   height: 1px;
+   border: 1px solid rgb(209, 208, 208);
+}
+.input , .input2{
+    color: rgb(120, 117, 117);
+    font-size: 20px;
+    margin-left: 13px;
+    
+}
+.input2{
+    
+    font-size: 30px;
+    margin-right: 12px;
+    
+}
+
+.num{
+    color: rgb(127, 127, 210);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.num-one{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 235, 235);
+    align-items: center;
+    padding-left: 35px;
+}
+.num-one-1{
+    padding-right: 10px;
+}
+
+.num-one-3{
+    padding-right: 20px;
+}
+.num_8{
+    padding-right: 3px;
+}
+.num_1 , .num_2, .num_3{
+    margin-left: 4px;
+}
+.num_11{
+    margin-top: 12px;
+}
+.num_12{
+    padding-right: 16px;
+}
+.alpha , .alpha-2 , .alpha-3{
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  text-transform: uppercase;  
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  /* padding-left: 10px; */
+  font-weight: 400;
+  display: flex;
+  margin-right: 15px;
+}
+
+.alpha-11 , .alpha-5{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;  
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    /* padding-left: 10px; */
+    font-weight: 400;
+    display: flex;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.alpha-5{
+    margin-right: 8px;
+}
+
+.buttonss{
+    justify-items: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 110px;
+}
+.styled {
+    border: 0;
+    line-height: 1.5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+    background-color: green;
+}
+.styled i{
+    font-size: 15px;
+    padding-right: 5px;
+    margin-top: 4px;
+    
+}
+
+
+
+
+
